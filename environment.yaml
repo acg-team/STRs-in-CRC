@@ -1,0 +1,15 @@
+name: STRs-in-CRC
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - notebook  
+  - numpy  
+  - polars
+  - pandas
+  - pyarrow
+  - seaborn
+  - scipy
+  - statsmodels  
+  - biopython
