@@ -4,12 +4,13 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - notebook  
-  - numpy  
-  - polars
-  - pandas
-  - pyarrow
-  - seaborn
   - scipy
-  - statsmodels  
+  - seaborn
   - biopython
+  - statsmodels
+  - polars
+  - pyarrow
+  - pandas
+  - notebook
+  - numpy
+  - scikit-learn

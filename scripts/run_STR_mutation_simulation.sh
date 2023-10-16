@@ -10,7 +10,8 @@ OUTPUT="../data/dummy_STR_mutation_data.csv"
 python3 filter_STR_regions.py \
     -r ${UNFILTERED_REGIONS} \
     -o ${REGIONS} \
-    -n 1000
+    -n 1000 \
+    -g 20
 
 python3 simulate_STR_mutation_data.py \
     -r ${REGIONS} \
